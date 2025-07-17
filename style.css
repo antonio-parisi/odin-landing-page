@@ -13,27 +13,42 @@ body {
     font-size: 24px;
     color: #f9faf8;
     padding: 10px 0;
+    margin-left: 50px;
     
 }
 
 header {
     background-color: #1f2937;
-    height: 400px;
+    height: 50px;
+    width: auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
     }
 
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+
+}
+
+
+.image {
+    width: 300px;
+    background-color: aquamarine;
+    height: 300px;
+}   
+
 .information-container {
-    height: 400px;
 }
 
 .quote-container {
-    height: 200px;
     background-color: #e5e7eb;
 }
 
 .cta-container{
-    height: 200px;
 }
 
 .link {
@@ -41,14 +56,22 @@ header {
     font-size: 18px;
 }
 
-.logo-links {
+header, ul {
     display: flex;
     gap: 30px;
     padding: 10px 0;
+    margin-right: 50px;
+    margin: 0;
+    list-style: none;
 }
 
 footer {
     height: 100px;
     background-color: #1f2937;
     border: solid 3px red;
+}
+
+section {
+    height: 400px;
+   
 }
