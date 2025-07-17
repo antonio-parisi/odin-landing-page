@@ -9,13 +9,6 @@ body {
     padding: 0;
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    padding: 10px 0;
-    
-}
-
 header {
     background-color: #1f2937;
     height: 50px;
@@ -26,12 +19,35 @@ header {
     align-items: center;
     }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 10px 0;
+    
+}
+
+header, ul {
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+    margin-right: 50px;
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+
 .hero {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
+    gap: 160px;   
 }
 
 .sign-up, h1 {
@@ -56,49 +72,98 @@ header {
 }
 
 .sign-up {
-    border: solid 2px red;
-    max-width: 500px;
+    flex-basis: 400px;
+    flex-shrink: 0;
+}
+
+.image-container {
+    width: 600px;
+    padding-bottom: 50px;
+
 }
 
 
 .image {
-    width: 300px;
-    background-color: aquamarine;
+    background-color: grey;
     height: 300px;
-    border: solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }   
 
 .information-container {
+    height: 400px;
+    
+}
+
+.information-container h1 {
+    color: black;
+    text-align: center;
+}
+
+
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+figcaption {
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.info {
+    height: 200px;
+    width: 200px;
+    border-color: #3882f6;
+    border: solid 3px;
+    border-radius: 7%;
 }
 
 .quote-container {
-    background-color: #e5e7eb;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
 }
+
+
+
+.quote {
+    color: black;
+  
+    width: 500px;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.author {
+    color: black;
+    font-weight: 900;
+    text-align: right;
+    margin-left: 330px;
+}
+
 
 .cta-container{
+    height: 300px;
 }
 
-.link {
-    color: #e5e7eb;
-    font-size: 18px;
-}
 
-header, ul {
-    display: flex;
-    gap: 30px;
-    padding: 10px 0;
-    margin-right: 50px;
-    margin: 0;
-    list-style: none;
-}
+
+
 
 footer {
     height: 100px;
     background-color: #1f2937;
-    border: solid 3px red;
 }
 
-section {
-    height: 400px;
-   
-}
