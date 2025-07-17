@@ -13,7 +13,6 @@ body {
     font-size: 24px;
     color: #f9faf8;
     padding: 10px 0;
-    margin-left: 50px;
     
 }
 
@@ -31,7 +30,34 @@ header {
     display: flex;
     background-color: #1f2937;
     justify-content: space-around;
+    align-items: center;
 
+}
+
+.sign-up, h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.sign-up, p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-button { 
+    background-color: #3882f6;
+    width: 100px;
+    border-radius: 7%;
+    height: 30px;
+    border: none;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.sign-up {
+    border: solid 2px red;
+    max-width: 500px;
 }
 
 
@@ -39,6 +65,7 @@ header {
     width: 300px;
     background-color: aquamarine;
     height: 300px;
+    border: solid 2px red;
 }   
 
 .information-container {
